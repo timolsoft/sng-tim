@@ -1,64 +1,90 @@
-<!DOCTYPE HTML>
 <html>
 <head>
-	<title> Resume:: OLANIYI Timothy </title>
+<title> My CV </title>
+<link rel="stylesheet"  type ="text/css" href="style.css">
 </head>
+
 <body>
-<table height="40px" width="90%" background-color="green">
-<tr>
-<td> &nbsp; </td>
-</tr>
-</table>
-<table>
-<tr>
-<td> &nbsp; </td>
-<td> <FONT SIZE="40" COLOR="GREEN"> <B> OLANIYI TIMOTHY O. </B></FONT>  </td>
+    
+        <nav>
+            <a href="#Skill"> My Skills</a> |
+            <a href="#Exprience"> My Exprience</a> |
+            <a href="#Education">My Education </a>   |
+            <a href="#Contact"> Contact Me </a>
+        </nav>
+    
 
-<td> <img align="right" alt="my passport" src="https://res.cloudinary.com/timolsoft/image/upload/v1566652046/samples/gj6ow5o95ajliyqlojsv.jpg"  height ="130px" width ="100px"</td>
-</tr>
-<tr>
-<td colspan ="3"><B> <hr> CONTACT DETAILS... </B><hr></td>
-</tr>
-<tr>
-<td colspan ="3">Favour House, Egbejila Road, Off Asa Dam,<br>
-Ilorin. Kwara State.<br>
-+2348133357006 <br>
-timolsoft@gmail.com <hr>
-</td>
-</tr>
-<tr>
-<td colspan ="3"><B>SKILLS... </B><hr></td>
-</tr>
-<tr>
-<td colspan ="3"> Communication, Creative thinking, Problem Solving , Human Management, Time Management.
+<div class="myContainer">
+    <div class="myTop">
+        <span class="topLeft">
+            <h2> OLANIYI TIMOTHY OLUKUNLE</h2>
+           <p> Favour House Egbejila Road <br />
+            Asa-Dam Area, Ilorin <br />
+            Kwara State.</p>
+        </span>
+     
+        <span class="topRight">
+            <img src="https://res.cloudinary.com/timolsoft/image/upload/v1566652046/samples/gj6ow5o95ajliyqlojsv.jpg"
+        </span>
+    </div>
+    <a name="Skill"></a>
+    <div class="mySkills">
+    <h2> Skills</h2>
+    <p> Communication, Creative thinking, Problem Solving , Human Management, Time Management. </p>
+</div>
+    <a name="Exprience"></a>
+     <div class="myExprience">
+    <h2> Experience</h2>
+    <div id="myfirst"> <h3>Health Alive Foundation, Ilorin, Kwara State - HR/Administrative Manager </H3>
+       <ul>
+            <li>Organise and participate in the recruitment and orientation of new staff </li>
+<li>Prepare operational reports and schedules to ensure efficiency.</li>
+<li>Contribute to team effort by accomplishing related results as needed.</li>
+        </ul> 
+       </div>
 
-</td>
-</tr>
-</tr>
-<tr>
-<td colspan ="3"><hr><B>EXPRIENCES... </B><hr></td>
-</tr>
-<tr>
-<td colspan ="3"> <P> <B>Health Alive Foundation, Ilorin, Kwara State</B> - <I>HR/Administrative Manager </I> </P>
-<UL type="disk"> <li>Organise and participate in the recruitment and orientation of new staff </li>
-<li> Prepare operational reports and schedules to ensure efficiency. </li>
-<li>Contribute to team effort by accomplishing related results as needed. </li></ul>
-<p> <b>EcoBank Nig Limited </b>- <i>Banking Officer (Operations)</i> </p>
-<ul> <li> Serve in various capacities in banking operations. Cash and Tellers, Fund Transfers, Customer Service and Cash Management units with a focus on effective service delivery.                                                                                                       </li> </ul>
-<hr>
-</td>
-</tr>
-<tr>
-<td colspan ="3"><B>EDUCATION... </B><hr></td>
-</tr>
-<tr>
-<td colspan ="3"><B><ol> <li> Kwara State Univeristy, Malete </b> - <i>B.Science (Computer Science) </i> </li>
-<li><b>Osun State Polytechnic, Iree </b> - <i>HND (Computer Science) </i> </li>
-</td>
-</tr>
+         <div id="mySecond">
+             <h3> EcoBank Nig Limited - Banking Officer (Operations)</h3>
+             <ul>
+                 <li> Serve in various capacities in banking operations. Cash and Tellers, Fund Transfers, Customer Service <br /> and Cash Management units with a focus on effective service delivery.             </li>
+             </ul> 
 
-</table>
+         </div>
+    </div>
+    <a name="Education"></a>
+    <div class="myEducation">
+    <h2> Education</h2>
+    <ul>
+        <li> <h4> Kwara State Univeristy, Malete </h4> - B. Science (Computer Science)</li>
+        <li> <h4> Osun State Polytechnic. Iree </h4> - HND (Computer Science)</li>
+    </ul>
+</div>
+
+<a name="Contact"></a>
+    <div class="myContact">
+        <div class="socialM">
+
+        </div>
+        <div class="contactF">
+            <form>
+                Name : <input type="text" name="name" placeholder="please enter your name here" required="required" pattern=".{4,}" /> <br />
+               Name : <input type="email" name="email" placeholder="please enter your email address here" required="required" pattern"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/> <br />
+
+               Title: <input type="text" name="title" placeholder="please enter your name here" required="required" pattern=".{4,}" /> <br />
+                Message: <textarea name="message" rows="6" column="20">leave your message here!</textarea> <br /> 
+
+               <button name="submit"> Submit </button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
 </body>
 </html>
-
 

@@ -1,0 +1,76 @@
+﻿body
+{
+    background-color:#000;
+
+}
+
+.myContainer {
+    position:relative;
+    width: 1200px;
+    height:1100px;
+    background-color:#eff3c6;
+    top:60px;
+    left:60px;
+    
+   }
+
+.vabar {
+    float: right;
+    position: sticky;
+}
+.myTop {
+    
+    position: relative;
+    height:120px;
+   
+    
+}
+.topLeft{
+display:block;
+float:left;
+
+ 
+
+}
+
+.topRight {
+   display:block;
+   float:right;
+   
+
+}
+ .topRight img {
+        height: 120px;
+        width: 120px;
+       text-align: right;
+    }
+
+h2 {
+    
+    color:#db0909
+
+}
+
+.myTop, .myExprience,.mySkills, .myEducation {
+    padding: 15px 15px 15px 15px;
+    border:solid;
+}
+p, ul {
+    font-style:italic;
+}
+
+input {
+    height: 25px;
+width: 30%;
+margin:3px;
+}
+
+textarea {
+    width: 28%
+}
+nav a {
+    text-decoration:none;
+    display:inline-block;
+    color:white;
+    font-style:bold;
+}
